@@ -5,7 +5,7 @@ Currently Experimental!
 =========================
 Requirements:
 -------------------------
-In order to run P2Pool with the Blakecoin network, you would need to build and install the
+In order to run P2Pool and other Python based pools with the Blakecoin network, you would need to build and install the
 blake_hash module for Python that includes the blake-256 proof of work code that Blakecoin uses for hashes.
 
 Linux:
