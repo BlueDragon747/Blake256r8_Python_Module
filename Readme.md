@@ -1,6 +1,6 @@
 Notes for Blakecoin:
 
-Currently Expermental!
+Currently Experimental!
 
 =========================
 Requirements:
