@@ -40,7 +40,7 @@ void blake_hash(const char* input, char* output)
     sph_blake256_context     ctx_blake;
     uint32_t hash[16];
     sph_blake256_init(&ctx_blake);
-    sph_blake256 (&ctx_blake, input, 80);
+    sph_blake256 (&ctx_blake, input, 32);
     sph_blake256_close (&ctx_blake, hash);
     memcpy(output, hash, 32);
 }
